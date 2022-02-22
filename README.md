@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @TheGoosePond
 - 👀 I’m interested in Music, Art, Filmmaking and Coding
-- 🌱 I’m currently learning Website Coding
+- 🌱 I’m currently learning how to make websited and general coding
 - 📫 How to reach me: Agustat22@tskoli.is
 
 <!---
