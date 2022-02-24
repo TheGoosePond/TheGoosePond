@@ -7,13 +7,16 @@ html {
 body {
     line-height: 1.4;
     font-family: "open sans", sans-serif;
-    background-image: linear-gradient(#ff23ff, #b800a8);
+    background-image: linear-gradient(#2a003d, #55004e);
     color: rgb(255, 255, 255);
     margin: 0;
 }
-img {
+img{
     max-width: 100%;
     height: auto;
+    display:inline-block;
+    margin:10px;
+    box-shadow:0 0 10px 5px rgba(49, 0, 45, 0.719);
 }
 h2, h4 {
     color: rgb(255, 177, 113);
@@ -22,8 +25,8 @@ h2, h4 {
 figure {
     margin: 0;
 }
-.bg-grunnur, .freyr-bg {
-    background-image: linear-gradient(rgb(129, 0, 112),rgb(70, 0, 64));
+.bg-grunnur {
+    background-image: linear-gradient(rgb(79, 17, 87), rgb(255, 44, 227));
 }
 .header, .main, .footer {
     padding: 1em;
