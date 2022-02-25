@@ -51,17 +51,14 @@ figure {
 .footer {
     line-height: 1.8;
 }
-.footernav {
-    list-style-type: none;    
-}
-.footernav a {
+a {
     color: rgb(235, 210, 143);
     text-decoration: none;
 }
-.footernav a:visited {
-    color:rgb(255, 255, 255)
+a:visited {
+    color:rgb(255, 170, 170)
 }
-.footernav a:hover, .footernav a:active {
+a:hover, a:active {
     text-decoration: underline;
 }
 .verkefni {
