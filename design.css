@@ -14,9 +14,11 @@ body {
 img{
     max-width: 100%;
     height: auto;
-    display:inline-block;
+    display:block;
     margin:10px;
     box-shadow:0 0 10px 5px rgba(49, 0, 45, 0.719);
+    margin-left: auto;
+    margin-right: auto;
 }
 h2, h4 {
     color: rgb(255, 177, 113);
@@ -36,6 +38,7 @@ figure {
     position: relative;
     text-align: center;
     font-family: Montserrat;
+    text-shadow: 4px 4px 6px rgb(160, 160, 160);
 }
 .topnav {
     display: flex;
@@ -51,14 +54,14 @@ figure {
 .footer {
     line-height: 1.8;
 }
-a {
+nav a {
     color: rgb(235, 210, 143);
     text-decoration: none;
 }
-a:visited {
+nav a:visited {
     color:rgb(255, 170, 170)
 }
-a:hover, a:active {
+nav a:hover, a:active {
     text-decoration: underline;
 }
 .verkefni {
@@ -70,6 +73,9 @@ a:hover, a:active {
 }
 .col-2, .col-3, .col-4 {
     display: grid;
+}
+.col-4 {
+    text-align: center;
 }
 .copy {
     text-align: center;
@@ -94,6 +100,14 @@ blockquote {
     color: white;
     text-shadow: 2px 2px 3px black;
 }
+.lift {
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (min-width:37.5em){
     .col-2, .col-3 {
         grid-template-columns: 1fr 1fr;
@@ -110,6 +124,11 @@ blockquote {
     .innerlinks a {
         border: 0;
     }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
 }
 @media screen and (min-width:48em) {
     body {
@@ -117,7 +136,6 @@ blockquote {
     }
     .header h1 {
         font-size: 4em;
-        text-align: left;
     }
     .verkefni {
         display: block;
@@ -139,6 +157,11 @@ blockquote {
         grid-template-columns: 1fr 1fr 1fr;
         /*gap: 2em;*/
     }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     .topbutt {
         padding: 0 .4em;
         font-size: 2em;
@@ -161,5 +184,10 @@ blockquote {
     .innerlinks a:last-child {
         border:0;
     }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
 }
 }
