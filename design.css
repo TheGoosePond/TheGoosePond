@@ -100,13 +100,10 @@ blockquote {
     color: white;
     text-shadow: 2px 2px 3px black;
 }
-.lift {
-    max-width: 100%;
-    height: auto;
-    display:block;
-    margin:10px;
-    margin-left: auto;
-    margin-right: auto;
+.video {
+    display: grid;
+    text-align: center;
+    gap: 2em;
 }
 @media screen and (min-width:37.5em){
     .col-2, .col-3 {
@@ -188,6 +185,6 @@ blockquote {
         display: block;
         margin-left: auto;
         margin-right: auto;
-      }
+    }
 }
 }
