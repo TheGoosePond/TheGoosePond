@@ -1,4 +1,11 @@
+/* Rétt hlutfall youtube > iframe  (.gluggi) 
 
+   óskuð breidd deilt í upphaflega breidd = n% 
+
+   til að finna rétta hæð : n%  * upphafleg hæð 
+*/
+
+/* 20em = 320px*/
 .gluggi {
     width:18em; /*300px */ 
     height:10.5em; /*168px;*/ 
@@ -36,3 +43,10 @@
     height:33em; /*534px;*/ 
   }
 }
+/*
+@media screen and (min-width: 80em) {
+    .gluggi { */
+    /*  width:87.5em; /*1400px;*/ 
+    /*  height:49em; /*788px;*/ 
+    /*}
+  } */
